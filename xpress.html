@@ -1,23 +1,136 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>पोशाख Xpress</title>
-</head>
-<style>
-    body{
-        background-image: url(img/1.jpg);
-        background-repeat: no-repeat;
-        background-size: 100%;
-        
-    }
-</style>
-<body>
-    <h1>
-        Fashion urgencies?<br>
-        पोशाख got you covered
-    </h1>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Print On Demand</title>
+        <link rel="stylesheet" href="style.css">
     
+        <!--Box-icons-->
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    
+        <!-- Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet">
+            
+    </head>
+    <style>
+        body{
+            background-image: url(img/1.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            
+        }
+    </style>
+<body>
+    
+    <header>
+        <a href="#" class="logo"><i class='bx bx-store'></i>पोशाख</a>
+        <ul class = "navlist">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="xpress.html" class="active">Xpress</a></li>
+            <li><a href="#review">Our Customer</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="nav-icons">
+            <a href="#"><i class='bx bx-search-alt-2'></i></a>
+            <a href="#"><i class='bx bx-cart'></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+     </header>
+     <section class="pod" id="pod">
+        <div class="pod-header">
+            <h1>Got Fashion Urgencies?<br> We've got<br> you covered</h1>
+            <br>
+            <p>Upload your favourite picture </p>
+        </div>
+        <div class="image-upload">
+            <input type="file" id="image-upload" accept="image/*">
+            <button id="upload-button">Upload Image</button>
+        </div>
+        <br><br><br>
+        <div class="product-cards">
+            <div class="card">
+              <img src="https://via.placeholder.com/150" alt="Product Image">
+              <h3>T-Shirt</h3>
+              <p>Classic fit, 100% cotton</p>
+              <button class="select-product">Select</button>
+            </div>
+            <div class="card">
+              <img src="https://via.placeholder.com/150" alt="Product Image">
+              <h3>Mug</h3>
+              <p>Ceramic, 11 oz</p>
+              <button class="select-product">Select</button>
+            </div>
+            <div class="card">
+              <img src="https://via.placeholder.com/150" alt="Product Image">
+              <h3>Phone Case</h3>
+              <p>Fits iPhone 12, durable plastic</p>
+              <button class="select-product">Select</button>
+            </div>
+            <!-- Repeat the above code for 7 more products -->
+            <div class="card">
+              <img src="https://via.placeholder.com/150" alt="Product Image">
+              <h3>Hoodie</h3>
+              <p>Soft and cozy, 50% cotton 50% polyester</p>
+              <button class="select-product">Select</button>
+            </div>
+            <div class="card">
+              <img src="https://via.placeholder.com/150" alt="Product Image">
+              <h3>Tote Bag</h3>
+              <p>Canvas, 12" x 15"</p>
+              <button class="select-product">Select</button>
+            </div>
+            <div class="card">
+              <img src="https://via.placeholder.com/150" alt="Product Image">
+              <h3>Water Bottle</h3>
+              <p>Stainless steel, 27 oz</p>
+              <button class="select-product">Select</button>
+            </div>
+            <div class="card">
+              <img src="https://via.placeholder.com/150" alt="Product Image">
+              <h3>Mousepad</h3>
+              <p>Soft and smooth, 9" x 11"</p>
+              <button class="select-product">Select</button>
+            </div>
+            <div class="card">
+              <img src="https://via.placeholder.com/150" alt="Product Image">
+              <h3>Sticker</h3>
+              <p>Vinyl, 3" x 3"</p>
+              <button class="select-product">Select</button>
+            </div>
+            
+          </div>
+     </section>
+     <!--
+        <button id="upload-button">Upload Image</button>
+        <div id="product-selection">
+          <h2>Choose a Product</h2>
+          <ul>
+            <li>
+              <input type="radio" id="t-shirt" name="product">
+              <label for="t-shirt">T-Shirt</label>
+            </li>
+            <li>
+              <input type="radio" id="mug" name="product">
+              <label for="mug">Mug</label>
+            </li>
+            <li>
+              <input type="radio" id="phone-case" name="product">
+              <label for="phone-case">Phone Case</label>
+            </li>
+             Add more products here
+          </ul>
+        </div>
+        <div id="design-preview">
+          This will display the uploaded image and the chosen product -->
+
+ 
+  <script>
+    // Add JavaScript code here to handle the image upload and product selection
+  </script>
 </body>
 </html>

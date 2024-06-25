@@ -178,3 +178,57 @@ header.sticky{
     font-size: var(--p-font);
 }
 
+
+.pod-header h1{
+    
+    font-size: var(--h2-font);
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.pod-header p{
+    font-family: var(--h2-font);
+}
+.product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    margin: 10px;
+    width: calc(25% - 20px); /* Calculate 25% of the width minus 20px for margin */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .card h3 {
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .select-product {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .select-product:hover {
+    background-color: #3e8e41;
+  }
